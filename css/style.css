@@ -1,0 +1,103 @@
+/*this is header*/
+body{
+	padding-top: 121px;
+	height: 1800px;
+}
+.header-wrapper{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 1600px;
+	height: 120px;
+	z-index: 10;
+}
+.logo{
+	display: inline-block;
+	width: 138px;
+	height: 93px;
+	margin-left: 140px;
+	margin-top: 4px;
+	vertical-align: top;
+}
+.navi{
+	display: inline-block;
+	width: 473px;
+	height: 23px;
+	margin-top: 48px;
+	margin-left: 119px;
+}
+.navbar-li{
+	display: inline-block;
+	padding-left: 15px;
+	color: #181C28;
+}
+/*this is banner*/
+.banner{
+	width: 1600px;
+	height: 382px;
+}
+.banner-box{
+	position: relative;
+	width: 1600px;
+	height: 382px;
+}
+.box1{
+	position: absolute;
+	top: 175px;
+	left: 600px;
+}
+.text1{
+	font-size: 22px;
+	color: white;
+}
+.text2{
+	font-size: 48px;
+	color: white;
+}
+/*this is popular post section*/
+.p-post{
+	margin-top: 85px;
+	margin-left: 138px;
+	height: 31px;
+	font-size: 22px;
+	color: #FF7a00;
+}
+.sct{
+	margin-top: 100px;
+}
+.bag{
+	display: inline-block;
+	width: 636px;
+	height: 423px;
+}
+.box2{
+	width: 636px;
+	height: 94px;
+	margin-left: 138px;
+}
+.box2-text{
+	font-size: 36px;
+	margin-top: 20px;
+}
+.wonderful{
+	font-size: 16px;
+	margin-top: 24px;
+	width: 636px;
+	height: 81px;
+}
+.rdmore{
+	background-color: #fff;
+	font-size: 14px;
+	color: #FF7a00;
+}
+.rdmore::after{
+	content: '';
+	width: 47px;
+	height: 4px;
+	background-color: #FF7a00;
+	display: inline-block; 
+	margin-left: 18px;
+}
+.box33{
+	display: inline-block;
+}
